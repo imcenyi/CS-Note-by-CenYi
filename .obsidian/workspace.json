@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "05455916bb6ba585",
+    "type": "split",
+    "children": [
+      {
+        "id": "031f7087878d09c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e11ac8491994adf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++OOP/未命名.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1fd97b25a7792ef1",
+    "type": "split",
+    "children": [
+      {
+        "id": "23b11424848564c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3954bdce42bb6536",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "b5b866af6e98b71f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3bbfd7cebb6b74af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.5
+  },
+  "right": {
+    "id": "c1d493e2416da4cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdef967034f65d81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61e7d635f136e753",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C++OOP/未命名.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d1f498bec1b958e1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C++OOP/未命名.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89effee8b20edad2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2e82741e0559c395",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C++OOP/未命名.md"
+              }
+            }
+          },
+          {
+            "id": "6798c2abdd3d0540",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "e11ac8491994adf9",
+  "lastOpenFiles": [
+    "C++OOP/初识C++.md",
+    "C++OOP/未命名.md",
+    "C++OOP/C C++多文件编译.md",
+    "C++OOP/访问修饰符.md",
+    "C++OOP/异常处理.md",
+    "CS61A/未命名.md",
+    "Pasted image 20230620181101.png",
+    "C++OOP/动态内存分配.md",
+    "C++OOP/类型转换.md",
+    "CS61A/未命名 3.md",
+    "Markdown/简单操作.md",
+    "数据结构与算法",
+    "软件工程",
+    "计算机组成原理",
+    "计算机组成原理/计算机网络",
+    "操作系统",
+    "Docker",
+    "Vue",
+    "TypeScript",
+    "SSM SpringBoot",
+    "Redis",
+    "CsharpOOP/设计模式/适配模式.md",
+    "CsharpOOP/设计模式/设计模式.md",
+    "CsharpOOP/设计模式/观察者模式.md",
+    "CsharpOOP/设计模式/工厂模式.md",
+    "CsharpOOP/设计模式/单例模式.md",
+    "CsharpOOP/类的更多表现形式/静态类.md",
+    "CsharpOOP/类的更多表现形式/泛型类.md",
+    "CsharpOOP/类的更多表现形式/接口.md",
+    "CsharpOOP/类的更多表现形式/抽象类.md",
+    "CsharpOOP/类的更多表现形式/密封类.md",
+    "CsharpOOP/委托/匿名方法、Event事件、多播委托.md",
+    "CsharpOOP/委托/Func 委托.md",
+    "CsharpOOP/委托/Action委托.md",
+    "CsharpOOP/IO操作/StringBuilder.md",
+    "CsharpOOP/IO操作/FileStream.md",
+    "CsharpOOP/IO操作/String.md",
+    "BUG/Pasted image 20230614104941.png",
+    "Pasted image 20230621161128.png",
+    "Pasted image 20230621154709.png",
+    "Pasted image 20230621154506.png",
+    "Pasted image 20230620181325.png",
+    "Pasted image 20230620180951.png",
+    "Pasted image 20230620181011.png",
+    "Pasted image 20230616154518.png"
+  ]
+}
