@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "e8d0fe093a13dbb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5814bdf4b5523f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f72cb2d76de3e132",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "阅读与思辨/week2/作业.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4e84293f984b3bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "三个标准.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b46ac2d7002e794f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d892c9b151bb107",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "139673b7f55da0de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "02fe047623574e69",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d84ce887154025e1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200.5
+  },
+  "right": {
+    "id": "14d6ad8220602b37",
+    "type": "split",
+    "children": [
+      {
+        "id": "efed9379be6732e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8633f37af0dce7cf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "三个标准.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8dd77010f18e3768",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "三个标准.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e84b2de318227886",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a08cae1f0f6a5d45",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "三个标准.md"
+              }
+            }
+          },
+          {
+            "id": "f3a8996852b0e0b9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "remotely-save:Remotely Save": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "e4e84293f984b3bd",
+  "lastOpenFiles": [
+    "阅读与思辨/week2/作业.md",
+    "三个标准.md",
+    "阅读与思辨/可能会出的题.md",
+    "中国跨文化交流/week5/预习.md",
+    "阅读与思辨/week5/课堂.md",
+    "2023-09-27.md",
+    "阅读与思辨/week4/作业.md",
+    "阅读与思辨/week5/预习.md",
+    "中国跨文化交流/week4/预习.md",
+    "中国跨文化交流/week5",
+    "阅读与思辨/未命名.md",
+    "阅读与思辨/week5",
+    "阅读与思辨/week4/预习.md",
+    "阅读与思辨/week4",
+    "阅读与思辨/week3/作业.md",
+    "阅读与思辨/week3/预习.md",
+    "中国跨文化交流/week4/课堂.md",
+    "中国跨文化交流/week3/预习.md",
+    "中国跨文化交流/week3/作业.md",
+    "中国跨文化交流/week2/作业.md",
+    "中国跨文化交流/week2/预习.md",
+    "中国跨文化交流/week1/预习.md",
+    "中国跨文化交流/week1/预习.md",
+    "中国跨文化交流/week1",
+    "阅读与思辨/week1/课后作业.md",
+    "中国跨文化交流/week4",
+    "阅读与思辨/week3/课堂笔记.md",
+    "阅读与思辨/week2/预习.md",
+    "中国跨文化交流/第二周/课堂.md",
+    "中国跨文化交流/第一周/作业.md",
+    "中国跨文化交流/第一周/课堂.md",
+    "阅读与思辨/week1",
+    "中国跨文化交流/week2",
+    "中国跨文化交流/week3",
+    "阅读与思辨/第四周",
+    "阅读与思辨/week3"
+  ]
+}

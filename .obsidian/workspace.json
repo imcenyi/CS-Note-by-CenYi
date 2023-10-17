@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "031f7087878d09c0",
+        "id": "38e3239d20656eee",
         "type": "tabs",
         "children": [
           {
-            "id": "e11ac8491994adf9",
+            "id": "cd09883e040fbf9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++OOP/未命名.md",
+                "file": "English/阅读与思辨/考试标准.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 230.5
   },
   "right": {
     "id": "c1d493e2416da4cc",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++OOP/未命名.md",
+                "file": "English/阅读与思辨/考试标准.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++OOP/未命名.md",
+                "file": "English/阅读与思辨/考试标准.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++OOP/未命名.md"
+                "file": "English/阅读与思辨/考试标准.md"
               }
             }
           },
@@ -154,55 +154,59 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "e11ac8491994adf9",
+  "active": "cd09883e040fbf9e",
   "lastOpenFiles": [
-    "C++OOP/初识C++.md",
-    "C++OOP/未命名.md",
-    "C++OOP/C C++多文件编译.md",
-    "C++OOP/访问修饰符.md",
-    "C++OOP/异常处理.md",
-    "CS61A/未命名.md",
+    "English/三个标准.md",
+    "English/阅读与思辨/考试标准.md",
+    "English/阅读与思辨/week4/作业.md",
+    "English/阅读与思辨/week4/预习.md",
+    "English/阅读与思辨/week5/预习.md",
+    "English/阅读与思辨/week5/课堂.md",
+    "English/阅读与思辨/week7/作业.md",
+    "English/阅读与思辨/week8/预习.md",
+    "English/阅读与思辨/week8",
+    "English/week8",
+    "English/阅读与思辨/week3/预习.md",
+    "English/阅读与思辨/week7",
+    "English/阅读与思辨/week3/作业.md",
+    "English/阅读与思辨/week2/作业.md",
+    "English/阅读与思辨/week1/课后作业.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/2.非连续内存分配/7.地址变换结构/2.基于快表.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/2.非连续内存分配/7.地址变换结构/1.基本.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/2.非连续内存分配/3.页表.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/2.非连续内存分配/4.二级页表.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/2.非连续内存分配/5.多级页表.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/2.非连续内存分配/6.反向页表.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/2.非连续内存分配/8.段页式存储管理.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/3.虚拟内存(非连续内存分配）/3.实现/1.请求分段存储管理.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/3.虚拟内存(非连续内存分配）/3.实现/2.请求分页存储管理.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/3.虚拟内存(非连续内存分配）/3.实现/3.请求段页式存储管理.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/3.虚拟内存(非连续内存分配）/4.页面置换算法/1.最佳置换算法（OPT，理想置换算法）.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/3.虚拟内存(非连续内存分配）/4.页面置换算法/2.先进先出置换算法（FIFO）.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/3.虚拟内存(非连续内存分配）/4.页面置换算法/3.最近最久未使用置换算法（LRU）.md",
+    "QA by ChatGPT4/操作系统/3.内存管理/3.内存分配与回收/3.虚拟内存(非连续内存分配）/4.页面置换算法/4.时钟置换算法（CLOCK）.md",
+    "1.游戏/4.项目/我是幕后黑手/3.策划（游戏流程）",
+    "1.游戏/4.项目/我是幕后黑手",
     "Pasted image 20230620181101.png",
-    "C++OOP/动态内存分配.md",
-    "C++OOP/类型转换.md",
-    "CS61A/未命名 3.md",
-    "Markdown/简单操作.md",
-    "数据结构与算法",
-    "软件工程",
-    "计算机组成原理",
-    "计算机组成原理/计算机网络",
-    "操作系统",
-    "Docker",
-    "Vue",
-    "TypeScript",
-    "SSM SpringBoot",
-    "Redis",
-    "CsharpOOP/设计模式/适配模式.md",
-    "CsharpOOP/设计模式/设计模式.md",
-    "CsharpOOP/设计模式/观察者模式.md",
-    "CsharpOOP/设计模式/工厂模式.md",
-    "CsharpOOP/设计模式/单例模式.md",
-    "CsharpOOP/类的更多表现形式/静态类.md",
-    "CsharpOOP/类的更多表现形式/泛型类.md",
-    "CsharpOOP/类的更多表现形式/接口.md",
-    "CsharpOOP/类的更多表现形式/抽象类.md",
-    "CsharpOOP/类的更多表现形式/密封类.md",
-    "CsharpOOP/委托/匿名方法、Event事件、多播委托.md",
-    "CsharpOOP/委托/Func 委托.md",
-    "CsharpOOP/委托/Action委托.md",
-    "CsharpOOP/IO操作/StringBuilder.md",
-    "CsharpOOP/IO操作/FileStream.md",
-    "CsharpOOP/IO操作/String.md",
-    "BUG/Pasted image 20230614104941.png",
-    "Pasted image 20230621161128.png",
-    "Pasted image 20230621154709.png",
-    "Pasted image 20230621154506.png",
-    "Pasted image 20230620181325.png",
-    "Pasted image 20230620180951.png",
-    "Pasted image 20230620181011.png",
-    "Pasted image 20230616154518.png"
+    "未命名.canvas",
+    "1.游戏/开课典礼/开课典礼/Pasted image 20230910110442.png",
+    "1游戏/UnityTD课程/开课典礼/Pasted image 20230910104451.png",
+    "1.游戏/开课典礼/开课典礼/Pasted image 20230910105952.png",
+    "1.游戏/开课典礼/开课典礼/Pasted image 20230910105748.png",
+    "1.游戏/开课典礼/开课典礼/Pasted image 20230910105417.png",
+    "1.游戏/开课典礼/开课典礼/Pasted image 20230910105143.png",
+    "1.游戏/开课典礼/开课典礼/Pasted image 20230910104948.png",
+    "1.游戏/开课典礼/开课典礼/Pasted image 20230910104542.png",
+    "1.游戏/开课典礼/开课典礼/Pasted image 20230910104451.png",
+    "1.游戏/4.项目/NO！Rubbish！！！",
+    "1.游戏/7.通识",
+    "1.游戏/2.游戏开发",
+    "1.游戏/4.项目/神秘元界/荣耀-小循环流程图.xsd",
+    "1.游戏/4.项目/神秘元界/Y3触发器架构",
+    "1游戏/未命名.canvas"
   ]
 }

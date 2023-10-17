@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2023-09-09T09:24:00.677Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) liuchengtu/6.6.4 Chrome/87.0.4280.141 Electron/11.3.0 Safari/537.36" etag="T_RhxLmFNtg3p4h4Xbmx" background="rgb(255, 255, 255)" version="14.7.8" type="online">
+  <diagram id="1A8nSA4J91hbawk-T7JM" name="第 1 页">
+    <mxGraphModel dx="3460" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="686" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="50" width="460" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="614" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="1150" width="460" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFEAC7;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="531" width="420" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="进入对局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="581" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="判断先后手" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="641" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="24" target="30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;换牌阶段：玩家可以将1~3中手牌与牌库内的牌进行交换&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1027.5" y="851" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="25" target="24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="双方摸取随机三张手牌" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="801" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="领域开启剩余回合=4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-865" y="731" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="领域开启剩余回合=5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1135" y="731" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="先手放行动（对局正式开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1035" y="941" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="530" width="390" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="初始设置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="521" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="EX点系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="44" target="46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="EX点初始值为0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="46" target="56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="回合开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;EX上限加1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="790" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="51" target="52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;EX回复至上限&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="850" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;玩家进行操作&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="56" target="50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="56" target="51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="56" value="&lt;span&gt;当前EX上限是否&amp;lt;10&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="720" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="57" target="58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;回合结束&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="971" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="58" target="46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="1055" />
+              <mxPoint x="-90" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;保留当前EX数值&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1040" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="74" value="回合轮换&lt;br&gt;进入对手回合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="76" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="716" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=50;" edge="1" parent="1" source="77" target="715">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-450" y="1110" />
+              <mxPoint x="50" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="610" width="420" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="78" value="回合内" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="80" target="82" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="80" value="进入当前玩家回合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="82" target="91" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82" value="取牌堆顶一张手牌" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="84" target="86" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;将这张牌加入手牌&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="880" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="667" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="86" target="592">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-450" y="1110" />
+              <mxPoint x="-915" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="668" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="86" target="614">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="86" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;回合开始&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="980" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="91" target="84" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91" target="99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="91" value="&lt;span&gt;当前玩家手牌数量&amp;lt;9&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="790" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="99" target="86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="99" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;销毁这张牌&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="880" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="592" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="1150" width="410" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="593" value="卡牌系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-975" y="1170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="606" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="595" target="603">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="595" value="遍历玩家手牌" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-975" y="1220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="598" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="599" target="600" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="599" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;提醒玩家此卡可用&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-975" y="1430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="610" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="600" target="609">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="600" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;玩家选择卡牌并使用&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="1490" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="601" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="603" target="599" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="602" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="603" target="605" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="603" value="&lt;span&gt;当前EX&amp;gt;卡牌消耗&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="1270" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="605" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;不做提醒&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="1380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="608" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;发动卡牌效果&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-975" y="1610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="611" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="609" target="608">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="609" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;当前EX扣除当前卡牌消耗&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="1550" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="612" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="613" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-915" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="615" value="单位控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="1160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="663" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="619" target="659">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="619" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;攻击（单位正常一回合只可攻击一次&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="1380" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="658" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="625" target="657">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="625" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;移动&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="635" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;受击单位生命减少攻击单位破坏力&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-646.87" y="1510" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="653" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="639" target="647">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="639" value="&lt;font color=&quot;#323232&quot;&gt;&lt;span style=&quot;font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;攻击单位生命减少受击单位破坏力&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-646.87" y="1540" width="201.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="656" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="640" target="643">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="640" value="玩家选中单位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-505" y="1190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="644" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="643" target="619">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="645" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="643" target="625">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="643" value="选择目的地（在单位可移动范围内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-563.75" y="1255" width="237.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="654" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="647" target="651">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="655" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="647" target="652">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="647" value="受击单位是否被击杀" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-624.37" y="1595" width="155" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="651" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;双方位置停留&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="1690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="652" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;攻击方占据受击方原先位置&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="1690" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="657" value="每移动一格，行动力-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="664" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="659" target="635">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="659" value="单位行动力-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-605" y="1450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="687" value="&lt;font style=&quot;font-size: 20px&quot;&gt;单位基本属性&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="688" value="&lt;font style=&quot;font-size: 20px&quot;&gt;破坏力:攻击和手击时对目标单位造成的伤害&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="80" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="689" value="&lt;font style=&quot;font-size: 20px&quot;&gt;生命值：生命值为0，死亡&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="140" width="980" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="691" value="&lt;font style=&quot;font-size: 20px&quot;&gt;入场效果：单位放置时触发&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="240" width="1150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="692" value="&lt;font style=&quot;font-size: 20px&quot;&gt;被破坏效果：单位被破坏时触发&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="300" width="1170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="715" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#E5CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1150" width="460" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="717" value="领域系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="740" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=50;" edge="1" parent="1" source="722" target="737">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="741" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=50;" edge="1" parent="1" source="722" target="738">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="722" value="发动领域效果" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-68.75" y="1300" width="237.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="734" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=50;" edge="1" parent="1" source="724" target="730">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="724" value="当前玩家领域剩余时间-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="735" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=50;" edge="1" parent="1" source="730" target="722">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="730" value="当前玩家领域剩余时间是否为0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1255" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="751" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=50;" edge="1" parent="1" source="737" target="750">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="737" value="将领域展开到全场" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1380" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="752" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=50;" edge="1" parent="1" source="738" target="750">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="738" value="进入领域对抗状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1380" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="742" value="场上无领域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="743" value="场上有领域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="750" value="在领域范围内触发领域效果，英雄获得对应技能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-24.5" y="1480" width="149" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="690" value="&lt;font style=&quot;font-size: 20px&quot;&gt;行动力：攻击和移动所需要消耗行动力&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="190" width="1120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
